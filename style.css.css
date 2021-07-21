@@ -4,10 +4,26 @@ body{
 }
 .title{
     font-size: 48px;
+    color:white;
+    text-align: center;
+}
+.avatar{
+    border: 1px solid white;
+    width: 100%;
 }
 .subtitle{
     font: size 18px;
 }
 .position{
     color:#FF3232
+}
+.birth{
+    color: white;
+    text-align: center;
+}
+.aside{
+    width: 310px;
+    background-color: #1A142D;
+    padding:18px;
+    box-sizing: border-box;
 }
