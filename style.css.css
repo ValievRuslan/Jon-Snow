@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 body{
     font-family:'Montserrat',Helvetica, sans-serif;
+    padding: 64px 123px 63px 57px;
 }
 .title{
     font-size: 48px;
     color:white;
     text-align: center;
+    margin: 48px 0 16px 0;
 }
 .avatar{
     border: 1px solid white;
@@ -16,6 +18,7 @@ body{
 }
 .position{
     color:#FF3232
+    
 }
 .birth{
     color: white;
@@ -26,4 +29,31 @@ body{
     background-color: #1A142D;
     padding:18px;
     box-sizing: border-box;
+  margin-right: 67px;
+}
+.main{
+    width: 467px;
+}
+.container{
+    display: flex;
+}
+.text{
+    margin: 0;
+}
+.text2{
+    margin-top: 67px;
+}
+.socials{
+text-align: center;
+}
+.paragraph{
+    padding-left: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    position: relative;
+    bottom: 5px;
 }
