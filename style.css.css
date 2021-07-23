@@ -36,6 +36,7 @@ body{
 }
 .container{
     display: flex;
+    margin-bottom: 87px;
 }
 .text{
     margin: 0;
@@ -56,4 +57,24 @@ a{
 a:hover{
     position: relative;
     bottom: 5px;
+}
+.gallery{
+    width: 910px;
+    display:flex;
+    justify-content: space-between;
+}
+.gallery-label{
+    padding: 3px 5px;
+    background-color:#1A142D;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    font-family:Montserrat ;
+    position: absolute;
+    
+}
+.gallery-item{
+position:relative;
+width: 206px;
+height: 206px;
 }
