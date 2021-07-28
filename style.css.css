@@ -63,7 +63,14 @@ a:hover{
     display:flex;
     justify-content: space-between;
 }
+.gallery-item{
+    position:relative;
+    width: 206px;
+    height: 206px;
+    }
 .gallery-label{
+    display: none;
+    width: 100%;
     padding: 3px 5px;
     background-color:#1A142D;
     margin: 0;
@@ -71,10 +78,10 @@ a:hover{
     font-size: 12px;
     font-family:Montserrat ;
     position: absolute;
-    
+bottom: 0px;
+left: 0;
+box-sizing: border-box;
 }
-.gallery-item{
-position:relative;
-width: 206px;
-height: 206px;
+.gallery-item:hover .gallery-label{
+display:block;
 }
